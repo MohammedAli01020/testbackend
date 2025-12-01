@@ -21,6 +21,16 @@ public class HelloController {
     public ResponseEntity<Map<String, Object>> hello() {
         result.put("name", "Stephen");
         result.put("city", "San Jose");
+        result.put("age", "28");
+        result.put("mmm", "50");
+
+        result.put("nader", "9000");
+        result.put("ahmed", "555");
+
+
+
+        result.put("yassser", "ali");
+
 
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
